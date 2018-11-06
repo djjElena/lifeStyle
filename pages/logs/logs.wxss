@@ -1,0 +1,192 @@
+.weater{
+  background: #40A7E7;
+}
+.weater::before{
+  content: "";
+  display: table;
+}
+/* 搜索功能 */
+.weater-search{
+  padding-top: 50rpx;
+  height: 60rpx;
+  position: fixed;
+  z-index: 500;
+  width: 375px;
+  background: #40A7E7;
+  border: none;
+}
+.weater-search-img{
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 40rpx;
+  left: 70rpx;
+}
+.placeholder-color{
+  color: #FFF;
+  font-size: 18px;
+}
+.weater-oneinput{
+  display: inline-block;
+  height: 26px;
+  width: 80%;
+  padding-left: 140rpx;
+  margin: 0 auto;
+  color: #FFF;
+}
+.weater-hr{
+  width: 80%;
+  margin: 0 auto;
+  height: 1rpx;
+  background: #FFF;
+}
+
+/* 城市 更新时间 */
+.weater-city-time{
+  padding-top: 150rpx;
+  display: flex;
+}
+.weater-city{
+  display: inline-block;
+  width: 56%;
+  text-align:right;
+  font-size: 14px;
+  color: #FFF;
+}
+.weater-time{
+  display:inline-block;
+  width: 44%;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 5rpx;
+  color: #FFF;
+}
+/* 温度 */
+.weater-temperature{
+  padding-top: 50rpx;
+  display: flex;
+  justify-content: center;
+  color: #FFF;
+}
+.temperature{
+  font-size: 100px;
+}
+/* 天气状况 */
+.weater-conditions{
+  padding-top: 50rpx;
+  text-align: center;
+  color: #FFF;
+  font-size: 14px;
+}
+
+/* 空气质量 */
+.weater-air{
+  padding-top: 30rpx;
+  color: #FFF;
+}
+.air{
+  display: block;
+  width: 90px;
+  height: 30px;
+  font-size: 12px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10%;
+  line-height: 30px;
+  background: rgba(255,255,255,.3)
+}
+/* 未来天气 */
+.weater-future{
+  margin-top: 50rpx;
+  padding: 30rpx 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: rgba(3, 3, 248,.1);
+}
+.future{
+  width: 25%;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+.future text{
+  display: block;
+  height: 30px;
+  text-align: center;
+  color: #FFF;
+}
+/* 生活小提示 */
+.weater-life{
+  padding-bottom: 60rpx;
+}
+.style{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 1px solid #FFF;
+  padding: 40rpx 20rpx;
+}
+.style image{
+  width: 150rpx;
+  height: 150rpx;
+}
+.style .style-sub{
+  padding-left: 20rpx;
+  width: 80%;
+}
+.style .style-sub h4{
+  display: block;
+  color: #FFF;
+  height: 30px;
+}
+.style .style-sub text{
+  font-size: 12px;
+  color: #FFF;
+}
+/* 选择按钮 */
+.weater-select,.weater-location,.weater-set{
+  position: fixed;
+}
+.weater-select{
+  width: 50px;
+  height: 50px;
+  bottom: 120rpx;
+  right: 30rpx;
+}
+/* 按钮特效 */
+@keyframes deg{
+
+            0%{
+
+                transform:rotate(0deg) skew(0deg) scale(1);
+
+                -ms-transform:rotate(0deg) skew(0deg) scale(1);     
+                /* IE 9 */
+
+                -moz-transform:rotate(0deg) skew(0deg) scale(1);     
+                /* Firefox */
+
+                -webkit-transform:rotate(0deg) skew(0deg) scale(1); 
+                /* Safari ºÍ Chrome */
+
+                -o-transform:rotate(0deg) skew(0deg) scale(1); 
+
+            }
+            100%{
+
+                transform:rotate(360deg) skew(0deg) scale(1);
+
+                -ms-transform:rotate(360deg) skew(0deg) scale(1);     
+                /* IE 9 */
+
+                -moz-transform:rotate(360deg) skew(0deg) scale(1);     
+                /* Firefox */
+
+                -webkit-transform:rotate(360deg) skew(0deg) scale(1); 
+                /* Safari ºÍ Chrome */
+
+                -o-transform:rotate(360deg) skew(0deg) scale(1); 
+
+            }
+
+        }

@@ -1,0 +1,107 @@
+<!--pages/citylist/citylist.wxml-->
+<view class='citylist'>
+  <text class='city-title'>A</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.A}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>B</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.B}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>C</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.C}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>D</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.D}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>E</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.E}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>F</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.F}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>G</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.G}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>H</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.H}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>I</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.I}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>J</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.J}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>K</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.K}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>L</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.L}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>M</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.M}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>N</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.N}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>O</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.O}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>P</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.P}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>Q</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.Q}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>R</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.R}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>S</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.S}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>T</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.T}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>U</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.U}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>V</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.V}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>W</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.W}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>X</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.X}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>Y</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.Y}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+  <text class='city-title'>Z</text>
+  <view class='city-content' bindtap='cityName' data-a='{{item.name}}' wx:for="{{cityList.Z}}" wx:key="item.id">
+    {{item.name}}
+  </view>
+</view>

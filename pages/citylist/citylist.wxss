@@ -1,0 +1,15 @@
+/* pages/citylist/citylist.wxss */
+.city-title{
+  display: block;
+  height: 25PX;
+  font-size: 18PX;
+  background: #eee;
+  padding-left: 20px;
+}
+.city-content{
+  font-size: 14px;
+  padding-left: 20px;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #ccc;
+}

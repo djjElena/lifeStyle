@@ -1,0 +1,83 @@
+<view class='weater'>
+  <!-- 搜索功能 -->
+  <view class='weater-search'>
+  <image class='weater-search-img' bindtap="seqreq" src='../../img/search.png'></image>
+    <form>
+    <input class='weater-oneinput' bindinput="bindKeyInput" type='text' placeholder="查询其他城市" cursor="10" placeholder-class="placeholder-color" adjust-position confirm-type bindconfirm="seqreq"></input>
+    </form>
+    <view class='weater-hr'></view>
+  </view>
+  <!-- 城市-时间 信息 -->
+  <view class='weater-city-time'>
+    <text class='weater-city'>{{today.city}}</text>
+    <text class='weater-time'>{{sk.time}} 更新</text>
+  </view>
+  <!-- 气温 -->
+  <view class='weater-temperature'>
+    <text class='temperature'>{{sk.temp}}</text>
+    <view>o</view>
+  </view>
+  <!-- 天气状况 -->
+  <view class='weater-conditions'>
+    <text class='conditions'>{{sk.winid_direction}}</text>
+  </view>
+  <!-- 空气质量 -->
+  <view class='weater-air'>
+    <text class='air'>湿度 {{sk.humidity}}</text>
+  </view>
+  <!-- 未来天气状况 -->
+  <view class='weater-future'>
+    <view class='future' wx:for="{{future}}" wx:key="item.id">
+      <text>{{item.week}}</text>
+      <text>{{item.temperature}}</text>
+      <text>{{item.weather}}</text>
+      <text>{{item.wind}}</text>
+    </view>
+  </view>
+  <!-- 生活小提示 -->
+  <view class='weater-life'>
+    <view class='weater-clothes style'>
+      <image src='../../img/clothes.png'></image>
+      <view class='style-sub'>
+        <h4>穿衣指数 较舒适</h4>
+        <text>{{today.dressing_advice}}</text>
+      </view>
+    </view>
+    <view class='weater-car style'>
+      <image src='../../img/car.png'></image>
+      <view class='style-sub'>
+        <h4>洗车指数 较适宜</h4>
+        <text>较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持            一天。</text>
+      </view>
+    </view>
+    <view class='weater-cold style'>
+      <image src='../../img/cold.png'></image>
+      <view class='style-sub'>
+        <h4>洗车指数 较适宜</h4>
+        <text>较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持            一天。</text>
+      </view>
+    </view>
+    <view class='weater-run style'>
+      <image src='../../img/run.png'></image>
+      <view class='style-sub'>
+        <h4>洗车指数 较适宜</h4>
+        <text>较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持            一天。</text>
+      </view>
+    </view>
+    <view class='weater-sun style'>
+      <image src='../../img/sun.png'></image>
+      <view class='style-sub'>
+        <h4>洗车指数 较适宜</h4>
+        <text>较适宜洗车，未来一天无雨，风力较小，擦洗一新的汽车至少能保持            一天。</text>
+      </view>
+    </view>
+  </view>
+  <!-- 选择按钮 -->
+  <image class='weater-select' bindtap="showButton" style="{{myanimation}}" src='../../img/select.png'></image>
+
+  <image style='width:{{mysize}}px;height:{{mysize}}px;bottom:{{myonebottom}}rpx;right:{{myoneright}}rpx' class='weater-location' src='../../img/location.png' bindtap='citys'></image>
+ 
+  <image style='width:{{mysize}}px;height:{{mysize}}px;bottom:{{mytwobottom}}rpx;right:{{mytworight}}rpx' class='weater-set' src="../../img/set.png" bindtap='seting'></image>
+
+  <image style='width:{{mysize}}px;height:{{mysize}}px;bottom:{{mythreebottom}}rpx;right:{{mythreeright}}rpx' class='weater-set' src='../../img/message.png'  bindtap='about'></image>
+</view>
